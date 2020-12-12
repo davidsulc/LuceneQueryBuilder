@@ -183,7 +183,7 @@ Tokenize(term, Analyzer.Whitespace); // ["foo/bar0flim", "flam"]
 Tokenize(term, @"[\d/]"); // ["foo", "bar", "flim flam"]
 ```
 
-Naturally, the list of token can then be manipulated to create a query, for example:
+Naturally, the list of tokens can then be manipulated to create a query, for example:
 
 ```cs
 using LuceneQueryBuilder.Tokenization;
